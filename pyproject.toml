@@ -115,7 +115,6 @@ dependencies=[
 # Similar to `install_requires` above, these must be valid existing
 # projects.
 [project.optional-dependencies]
-dev = ["check-manifest"] # Optional
 test = ["coverage"] # Optional
 
 # List URLs that are relevant to your project
