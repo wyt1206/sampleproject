@@ -21,6 +21,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      git remote -v
-      git fetch --all
-      git checkout -b test --track origin/test
+      git config user.email "ruandanwei1226@gmail.com"
+      git config user.name "Suda"
+      git branch -a
+      git checkout origin/wyt1206/RDWPROJ-2 --track
