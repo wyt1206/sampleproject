@@ -25,4 +25,4 @@ steps:
       git config user.name "Suda"
       git branch -a
       git fetch -a
-      git checkout -b wyt1206/RDWPROJ-2 --track origin/wyt1206/RDWPROJ-2
+      git checkout origin/wyt1206/RDWPROJ-2 --track
