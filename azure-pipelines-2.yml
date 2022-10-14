@@ -24,4 +24,5 @@ steps:
       git config user.email "ruandanwei1226@gmail.com"
       git config user.name "Suda"
       git branch -a
+      git fetch -a
       git checkout -b wyt1206/RDWPROJ-2 --track origin/wyt1206/RDWPROJ-2
